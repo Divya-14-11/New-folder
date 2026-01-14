@@ -1,0 +1,22 @@
+list1=['apple','banana','orange','green apple','mango','grapes']
+print(f"first element is {list1[0]}")
+print(f"last element is {list1[5]}")
+print(f"last element is {list1[-1]}")
+list1.append("melon")
+print(list1)
+list1.remove("apple")
+print(list1)
+list1.sort()
+print(list1)
+list1.pop(2)
+print(list1)
+list1.pop()
+print(list1)
+list1.reverse()
+print(list1)
+list1=list1[1:3]
+print(list1)
+list1=list1[::]
+print(list1)
+list1.clear()
+print(list1)
